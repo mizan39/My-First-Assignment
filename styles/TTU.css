@@ -154,3 +154,64 @@ cursor: pointer;
   color: gray;
   margin: 0;
 }
+.position{
+  color: #757575;
+}
+/* form style */
+
+.contact-section {
+  display: flex;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  margin: 100px 200px;
+ background: #f5f7ff;
+}
+
+.left-side {
+  padding: 40px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-side h1 {
+  font-size: 36px;
+  color: #111;
+  line-height: 1.2;
+}
+.right-side {
+  padding: 40px;
+  width: 50%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  padding: 12px;
+  background-color: #4c5eff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+ 
+}
